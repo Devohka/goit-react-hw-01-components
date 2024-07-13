@@ -8,6 +8,10 @@ import Statistics from "./Components/Statistics/Statistics";
 import FriendList from "./Components/FriendList/FriendList";
 import TransactionHistory from "./Components/TransactionHistory/TransactionHistory";
 
+
+
+
+
 import './App.css';
 
 console.log(data)
@@ -19,7 +23,7 @@ function App() {
 
   return (
     <>
-      <h1>Завдання 1 - Профіль соціальної мережі</h1>
+      <h2 className="text-gh">Завдання 1 - Профіль соціальної мережі</h2>
       <Profile
         username={user.username}
         tag={user.tag}
@@ -28,20 +32,20 @@ function App() {
         stats={user.stats}
       />
 
-      <h2>Завдання 2 - Секція статистики</h2>
+      <h2 className="text-gh">Завдання 2 - Секція статистики</h2>
 
 
-          <Statistics title="Upload stats" stats={data} />
+          <Statistics title="UPLOAD STATS" stats={data} />
 
 
 
-      <h2>Завдання 3 - Список друзів</h2>
+      <h2 className="text-gh">Завдання 3 - Список друзів</h2>
 
       <ul className="friend-list">
         <FriendList friends={friends} />,
       </ul>
 
-      <h2>Завдання 4 - Історія транзакцій</h2>
+      <h2 className="text-gh">Завдання 4 - Історія транзакцій</h2>
 
       <TransactionHistory items={transactions} />
     </>
