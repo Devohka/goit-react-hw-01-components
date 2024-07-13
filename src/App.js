@@ -10,13 +10,14 @@ import TransactionHistory from "./Components/TransactionHistory/TransactionHisto
 
 import './App.css';
 
-
+console.log(data)
 
 
 
 function App() {
-  return (
 
+
+  return (
     <>
       <h1>Завдання 1 - Профіль соціальної мережі</h1>
       <Profile
@@ -29,17 +30,20 @@ function App() {
 
       <h2>Завдання 2 - Секція статистики</h2>
 
-      <Statistics title="Upload stats" stats={data.map(stat => { stat })} />;
+
+          <Statistics title="Upload stats" stats={data} />
+
+
 
       <h2>Завдання 3 - Список друзів</h2>
 
-      <ul class="friend-list">
-      <FriendList friends={friends} />,
+      <ul className="friend-list">
+        <FriendList friends={friends} />,
       </ul>
 
       <h2>Завдання 4 - Історія транзакцій</h2>
-      
-      <TransactionHistory items={transactions} />;
+
+      <TransactionHistory items={transactions} />
     </>
   );
 }
