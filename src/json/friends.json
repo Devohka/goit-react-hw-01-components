@@ -2,19 +2,31 @@
     {
         "name": "Poly",
         "avatar": "https://ostroh.info/wp-content/uploads/2017/04/hqdefault.jpg",
-        "isOnline": "true",
+        "isOnline": true,
         "id": "assad23837482euw"
     },
     {
         "name": "Oleg",
         "avatar": "https://osvitoria.media/wp-content/uploads/2023/07/17.jpg",
-        "isOnline": "true",
+        "isOnline": true,
         "id": "ajsadasjbd3482euw"
     },
     {
         "name": "Ajax",
         "avatar": "https://vgorode.ua/img/article/12143/15_main-v1658903024.jpg",
-        "isOnline": "false",
+        "isOnline": false,
         "id": "239sakhkas2euw"
+    },
+    {
+        "name": "Anny",
+        "avatar": "https://img.delicious.com.au/WqbvXLhs/del/2016/06/more-the-merrier-31380-2.jpg",
+        "isOnline": true,
+        "id": "ajstytytrtrtuw"
+    },
+    {
+        "name": "Max",
+        "avatar": "https://i.pinimg.com/736x/c5/1b/02/c51b0262b65c1764d74cd9af2683f696.jpg",
+        "isOnline": false,
+        "id": "asaassaas82euw"
     }
 ]
